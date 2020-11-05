@@ -47,7 +47,7 @@ min_y, max_y = X[:, 1].min() - 1.0, X[:, 1].max() + 1.0
 
 mesh_step_size = 0.02
 
-
+"""
 x_vals, y_vals = np.meshgrid(np.arange(min_x, max_x, mesh_step_size), np.arange(min_y, max_y, mesh_step_size))
 output = Classifier_LR.predict(np.c_[x_vals.ravel(), y_vals.ravel()])
 plt.figure()
@@ -58,3 +58,9 @@ plt.ylim(y_vals.min(), y_vals.max())
 plt.xticks((np.arange(int(X[:, 0].min() - 1), int(X[:, 0].max() + 1), 1.0)))
 plt.yticks((np.arange(int(X[:, 1].min() - 1), int(X[:, 1].max() + 1), 1.0)))
 plt.show()
+"""
+
+
+
+
+
