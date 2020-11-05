@@ -64,3 +64,4 @@ plt.show()
 
 
 
+#what i didnt know was that it literally has a git update just right click the file
